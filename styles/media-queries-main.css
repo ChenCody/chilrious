@@ -1,0 +1,43 @@
+
+
+/* mobile narrow
+  -------------------------------------------------------------------------- */
+
+@media only screen and (max-width: 480px) {
+
+    header .banner-text h1 {
+        width: 100%;
+    }
+
+    header .social {
+        text-align: center;
+    }
+
+    header .social li {
+        margin: 0 6px;
+    }
+
+    #about .row {
+        width: 100%;
+    }
+
+    #about p {
+        line-height: 24px;
+    }
+    .item-wrap {
+        width: 215px;
+        margin: 0 auto;
+    }
+    #call-to-action .row .two {
+        width: 11rem;
+    }
+}
+
+
+
+
+
+
+
+
+

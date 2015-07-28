@@ -1,0 +1,45 @@
+html,body{
+    position: relative;
+    height: 100%;
+    background-color: #2a2b2d;
+}
+.shop-content {
+    height: 100%;
+}
+.apologize {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    height: 440px;
+    bottom: 50%;
+    margin: auto;
+    text-align: center;
+    color: #fff;
+    font-family: 'mplus-1p-bold','SimHei';
+}
+.apologize h1{
+    margin-top: 40px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+    letter-spacing: 2px;
+}
+.apologize hr {
+    width: 40px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.apologize p{
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+.apologize h1.cn-font {
+    font-weight: 400;
+}
+
+footer.page-footer {
+    width: 100%;
+    background-color: #000;
+}

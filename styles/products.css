@@ -1,0 +1,209 @@
+html,body {
+    height: 100%;
+}
+
+body{
+    font-family: 'mplus-1p-bold','SimHei';
+}
+
+
+/* section 通用 */
+.section{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    background-repeat: no-repeat;
+}
+.section-height {
+    background-size: auto 100%;
+}
+.section-bg-bottom {
+    background-position: center bottom;
+}
+
+
+.section h1{
+    font-family: 'mplus-1p-bold','SimHei';
+    font-size: 56px;
+    color: #fff;
+}
+.section p{
+    font-family: 'mplus-1p-bold','SimHei';
+    font-size: 28px;
+    line-height: 36px;
+    margin-top: 40px;
+
+}
+
+/* section 1 */
+.section-1{
+    position: relative;
+    background-image: url(../images/section-1-bg.jpg);
+    color: #fff;
+}
+.section-1-content {
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: 300px;
+}
+.section-1 h1{
+    letter-spacing: 2px;
+    font-size: 82px;
+    color: #fff;
+}
+.section-1 p {
+    margin-top: 52px;
+    font-size: 38px;
+    line-height: 48px;
+}
+.section-1 .scrolldown {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    right: 50%;
+}
+.section-1 .scrolldown .smoothscroll {
+    position: relative;
+    left: -19px;
+}
+.section-1-button{
+    margin-top: 40px;
+}
+.section-1-button a{
+    font-family: 'mplus-1p-bold';
+    display: inline-block;
+    font-weight: 300;
+    padding: 0 8px;
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+}
+.section-1-button button:hover{
+    background-color: transparent;
+}
+
+/* section 2 */
+.section-2{
+    background-image: url(../images/section-2-bg.jpg);
+    color: #fff;
+}
+/* section 3 */
+.section-3{
+    background-image: url(../images/section-3-bg.jpg);
+    color: #fff;
+}
+/* section 4 */
+.section-4{
+    position: relative;
+    background-image: url(../images/section-4-bg.jpg);
+    color: #fff;
+}
+.section-5{
+    cursor: pointer;
+    background-image: url(../images/section-5-bg.jpg);
+}
+.section-6{
+    cursor: pointer;
+    background-image: url(../images/section-6-bg.jpg);
+    background-color: #eeedeb;
+}
+.section-7{
+    background-image: url(../images/section-7-bg.jpg);
+}
+.section-8{
+    background-image: url(../images/section-8-bg.jpg);
+}
+.section-9{
+    height: auto;
+    background: #eeedeb;
+}
+.section-9 div {
+    width: 64%;
+    margin: 60px auto;
+}
+
+.section-10{
+    display: table;
+    background: #dad5ce;
+}
+.section-10-content {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: left;
+
+    overflow: hidden;
+}
+.section-10-content>*{
+    width: 74%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1.head-line {
+    position: relative;
+    margin: 60px auto 6px auto;
+    font-size: 16px;
+    color: #000;
+    text-align: center!important;
+    text-transform: uppercase;
+}
+h1.head-line:before {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    right: 50%;
+    margin: auto;
+    display: block;
+    content: " ";
+    width: 24px;
+    height: 3px;
+    background-color: #000;
+}
+.section-10 h1.head-line {
+    margin-top: 16px;
+}
+.section-10 h2 {
+    font-size: 16px;
+    margin-top: 6px;
+    text-transform: uppercase;
+    font-family: 'mplus-1p-bold','SimHei';
+}
+.section-10 p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.section-10 p img {
+    width: 100%;
+    height: auto;
+}
+.section-10 ul {
+    list-style-type: disc;
+    color: #000;
+    font-family: 'mplus-1p-bold','SimHei';
+}
+.section-10 ul li {
+    float: left;
+    font-size: 16px;
+    width: 23%;
+}
+.section-10 ul li:last-child {
+    width: 30%;
+}
+.section-11{
+    background-image: url(../images/section-11-bg.jpg);
+}
+/* footer */
+body footer{
+    width: 100%;
+    background-color: #0f0f0f;
+
+}
+
+

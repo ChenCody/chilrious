@@ -1,0 +1,224 @@
+
+/*--  carousel  --*/
+.carousel-area {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    -webkit-transition: all 0.6s ease-in-out;
+    -moz-transition: all 0.6s ease-in-out;
+    -ms-transition: all 0.6s ease-in-out;
+    -o-transition: all 0.6s ease-in-out;
+    transition: all 0.6s ease-in-out;
+}
+.carousel-list {
+    position: relative;
+    left: 0;
+    width: 9999px;
+    margin: 0;
+    -webkit-transition: left 0.6s ease-in-out;
+    -moz-transition: left 0.6s ease-in-out;
+    -ms-transition: left 0.6s ease-in-out;
+    -o-transition: left 0.6s ease-in-out;
+    transition: left 0.6s ease-in-out;
+}
+.carousel-list li {
+    float: left;
+    width: 550px;
+}
+.carousel-dot {
+    position: absolute;
+    bottom: 10px;
+    left: 40%;
+    margin: auto;
+}
+.carousel-dot li {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin-left: 18px;
+    border-radius: 6px;
+    border: 1px solid #fff;
+    cursor: pointer;
+    -webkit-transition: background-color 0.4s ease-in-out;
+    -moz-transition: background-color 0.4s ease-in-out;
+    -ms-transition: background-color 0.4s ease-in-out;
+    -o-transition: background-color 0.4s ease-in-out;
+    transition: background-color 0.4s ease-in-out;
+}
+.carousel-dot .active {
+    background-color: #fff;
+}
+
+/* ------------------------------------------------------------------ */
+/* i. Footer
+/* ------------------------------------------------------------------ */
+
+footer {
+    padding-top: 20px;
+    padding-bottom: 16px;
+    color: #303030;
+    font-size: 14px;
+    text-align: center;
+    position: relative;
+}
+
+footer a, footer a:visited { color: #525252; }
+footer a:hover, footer a:focus { color: #fff; }
+
+/* copyright */
+footer .copyright {
+    margin: 0;
+    padding: 0;
+    font-family:'mplus-1p-bold';
+}
+
+footer .copyright{
+    font-size: 14px;
+    line-height: 17px;
+    color: #717071;
+}
+/* social links */
+footer .social-links {
+    margin: 0 0 14px 0;
+    padding: 0;
+    font-size: 24px;
+}
+footer .social-links li {
+    display: inline-block;
+    margin: 0 0 0 30px;
+    padding: 0;
+    color: #F06000;
+}
+
+footer .social-links li:first-child { margin-left: 0; }
+
+
+
+
+.product-head{
+    position: fixed;
+    top: 20px;
+    left: 0;
+    width: 100%;
+    height: 30px;
+    z-index: 9;
+}
+.product-head .logo{
+    float: left;
+    width: 160px;
+    height: 23px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+.product-head .logo img{
+    height: 100%;
+}
+.product-head .product-navi{
+    float: right;
+    margin: 0 30px 0 0;
+}
+.product-navi li{
+    position: relative;
+    float: left;
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 20px;
+    font-family: 'mplus-1p-bold','SimHei';
+    color: #fff;
+}
+.product-navi li a:hover {
+    color: #0f0f0f;
+}
+.product-navi li:nth-child(3) {
+    width: 140px;
+}
+.product-navi li:last-child:before{
+    content: '';
+    display: block;
+    position: absolute;
+    left: -14px;
+    top: 6px;
+    width: 3px;
+    height: 16px;
+    background-color: #fff;
+}
+.product-navi a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+}
+.product-navi a img{
+    width: 14px;
+    height: 14px;
+}
+
+
+
+/*-------------------------------------------------*/
+
+/* slice part */
+/* 划出层 */
+.slide-timer {
+    position: fixed;
+    top: 0;
+    right: -400px;
+    bottom: 0;
+    width: 400px;
+    height: 100%;
+    font-weight: 100;
+    font-size: 14px;
+    line-height: 24px;
+    color: #fff;
+    background-color: rgba(30, 30, 30, 0.4);
+    z-index: 99;
+    -webkit-transition: right 1000ms ease-in-out;
+    -moz-transition: right 1000ms ease-in-out;
+    transition: right 1000ms ease-in-out;
+}
+.timer-list {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    font-family: 'mplus-1p-bold', 'SimHei';
+    width: 360px;
+    height: 560px;
+    margin: auto;
+}
+.timer-list li {
+    float: left;
+    width: 170px;
+    margin: 0 0 25px 10px;
+}
+.timer-list p {
+    margin: 0 14px;
+}
+.timer-list p.city {
+    text-transform: uppercase;
+}
+
+
+/*----------------------------------------*/
+/* 下滑箭头 */
+/* scrolldown link */
+header .scrolldown a {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    margin-left: -29px;
+    color: #fff;
+    display: block;
+    height: 42px;
+    width: 42px;
+    font-size: 42px;
+    line-height: 42px;
+    border-radius: 100%;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+header .scrolldown a:hover { color: #11ABB0; }

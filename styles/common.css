@@ -222,3 +222,17 @@ header .scrolldown a {
     transition: all .3s ease-in-out;
 }
 header .scrolldown a:hover { color: #11ABB0; }
+
+
+/* footer
+  -------------------------------------------------------------------------- */
+
+@media only screen and (max-width: 480px) {
+    footer .social-links {
+        font-size: 20px;
+    }
+
+    footer .copyright {
+        font-size: 12px;
+    }
+}

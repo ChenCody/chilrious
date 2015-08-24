@@ -9,20 +9,26 @@
     <link rel="shortcut icon" href="favicon.jpg"/>
 
     <link rel="stylesheet" href="styles/fonts.css"/>
-    <link rel="stylesheet" href="styles/products.css"/>
     <link rel="stylesheet" href="styles/default.css"/>
     <link rel="stylesheet" href="styles/common.css"/>
+    <!-- private css -->
+    <link rel="stylesheet" href="styles/products.css"/>
+    <link rel="stylesheet" href="styles/media-queries-products.css"/>
 </head>
 <body>
 
 <header class="product-head">
     <div class="logo"><img src="images/logo.png"></div>
-    <ul class="product-navi">
-        <li class="go-top"><a href="###">HOME</a></li>
-        <li><a href="page.html">SHOP</a></li>
-        <li><a href="http://www.chilrious.net">CHILRIOUS</a></li>
-        <li><a href="###" class="clock-botton"><img src="images/clock.png"/> </a></li>
-    </ul>
+    <nav id="nav-wrap" style="display: block;" class="">
+        <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
+        <a class="mobile-btn" href="#views" title="Hide navigation">Hide navigation</a>
+        <ul id="nav" class="product-navi">
+            <li class="go-top"><a href="###">HOME</a></li>
+            <li><a href="page.html">SHOP</a></li>
+            <li><a href="http://www.chilrious.net">CHILRIOUS</a></li>
+            <li><a href="###" class="clock-botton"><img src="images/clock.png"/> </a></li>
+        </ul>
+    </nav>
 </header>
 
 <div class="section section-1">
@@ -49,12 +55,15 @@
 <div class="section section-8"></div>
 <div class="section section-9">
     <h1 class="head-line">&emsp;details</h1>
+
     <div><img src="images/product-detail.jpg"/></div>
 </div>
 <div class="section section-10">
     <div class="section-10-content">
         <h1 class="head-line">&emsp;about</h1>
+
         <h2>&bull; dimensions /尺寸</h2>
+
         <p><img src="images/dimension-clock.jpg"/></p>
         <ul>
             <li>WEIGHT /重量<br/>&le; 300g</li>
@@ -101,7 +110,6 @@
 </div>
 
 <script src="scripts/jquery-1.10.2.min.js"></script>
-<script src="scripts/jquery.fullPage.min.js"></script>
 <script src="scripts/product.js"></script>
 </body>
 </html>

@@ -189,10 +189,13 @@ ul#nav li.current a { color: #F06000; }
    line-height: 30px;
    color: #7A7A7A;
 }
+#about .main-col>p {
+   text-align: justify;
+}
 #about .profile-pic {
    position: relative;
    width: 100px;
-   height: 100px;
+   height: auto;
 }
 #about .main-col { padding-right: 5%; }
 #about .about-info{
@@ -460,8 +463,8 @@ ul#nav li.current a { color: #F06000; }
    cursor: pointer;
 }
 .portfolio-item .item-wrap a img{
-   width: 215px;
-   height: 215px;
+   width: 100%;
+   height: auto;
 }
 
    /* overlay */
@@ -910,6 +913,7 @@ ul#nav li.current a { color: #F06000; }
    color: #474747 !important;
    border: none;
 }
+
 
 
 

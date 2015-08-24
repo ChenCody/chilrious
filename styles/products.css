@@ -3,9 +3,12 @@ html,body {
 }
 
 body{
-    font-family: 'mplus-1p-bold','SimHei';
+    font-family: 'mplus-1p-bold','SimHei', serif;
 }
 
+#nav-wrap> a {
+    display: none;
+}
 
 /* section 通用 */
 .section{

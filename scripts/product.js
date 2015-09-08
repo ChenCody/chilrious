@@ -2,13 +2,21 @@ $(function () {
     var body = $('body');
 
     // 初始化样式
-    if ((body.width() < 780) && (body.width() < body.height())) {
-        $('.section-10 ul li').each(function () {
+    /*if ((body.width() < 780) && (body.width() < body.height())) {
+        $('.section-10 .info-list li:not(:last-child)').each(function () {
             var th = $(this);
             th.html(th.html().replace(/<br>/, ''));
         });
-    }
-    $('.section-10-content ul').css('width', '84%');
+    }*/
+
+    $('.section-10-content .info-list').css('width', '84%');
+
+
+    // dimension尺寸的每个高度
+    var sType1 = $('.size-type-1');
+    sType1.height(sType1.width()*0.26);
+    var sType2 = $('.size-type-2');
+    sType2.height(sType1.width()*0.48);
 
     //点击logo跳转
     $('.logo').on('click', function () {
@@ -17,7 +25,7 @@ $(function () {
 
     // 点击下滑
     $('.smoothscroll').on('click', function () {
-        body.animate({scrollTop: body.height()}, 1000)
+        body.animate({scrollTop: $('.section-1').height()}, 1000)
     })
 
     //划出

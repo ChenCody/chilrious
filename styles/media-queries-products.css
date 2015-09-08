@@ -28,17 +28,17 @@
     .section-10 ul {
         list-style-type: none;
     }
+    /* 手机里不需要下滑按钮 */
+    .scrolldown {
+        display: none;
+    }
+    /* 尺寸区域的分栏 */
+    .size-list li {
+        width: 50%;
+    }
 }
 
 @media only screen and (max-width: 480px) {
-    .section-1-content h1 {
-        font-size: 2.4rem;
-        font-weight: 700;
-    }
-
-    .section-1-content p {
-        font-size: 1.7rem;
-    }
 
     /* 汉堡菜单 */
     #nav-wrap {
@@ -126,6 +126,26 @@
         border: none;
     }
 
+
+    /*==============================================================*/
+    /* 首屏调整 */
+    .section-1-content {
+        height: 13rem;
+    }
+    .section-1-content h1 {
+        font-size: 2.4rem;
+        font-weight: 700;
+    }
+
+    .section-1-content p {
+        font-size: 1.6rem;
+        line-height: 1;
+    }
+    /* 更换section1背景 */
+    .section-1 {
+        background-image: url(../images/section-1-bg-m.jpg);
+    }
+
     .product-navi li {
         float: none;
     }
@@ -139,13 +159,41 @@
         text-align: center;
     }
 
-    /* 主体section部分 */
-    .section-10 ul li {
+
+    /* detail区域自适应 */
+    .section-9 .detail-img-list {
+        margin-top: 1rem;
+    }
+    .section-9 .detail-img-list {
+        height: auto;
+    }
+    .section-9 .detail-img-list li {
         width: 100%;
+        height: auto;
+    }
+
+    /* 尺寸区域的分栏 */
+    .size-list li {
+        width: 100%;
+    }
+    .size-null {
+        display: none;
+    }
+    .section-10 .info-list li {
         float: none;
     }
 
-    .section-10 ul li:last-child {
+    /* 主体section部分 */
+    .info-list {
+        margin-left: 3rem;
+    }
+    .section-10 .info-list li {
+        width: 100%;
+        float: none;
+        margin-bottom: 1.2rem;
+    }
+
+    .section-10 .info-list li:last-child {
         width: 100%;
     }
 

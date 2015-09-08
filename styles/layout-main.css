@@ -19,6 +19,18 @@ body {
    background: #0f0f0f;
    font-family: 'mplus-1p-bold','opensans-regular', sans-serif;
 }
+/* 移动端背景固定 */
+body:before {
+   content: ' ';
+   position: fixed;
+   z-index: -1;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   background: url(../images/testimonials-bg.jpg) center 0 no-repeat;
+   background-size: cover;
+}
 
 .heiti{
    font-family: 'SimHei' !important;
@@ -188,9 +200,6 @@ ul#nav li.current a { color: #F06000; }
 #about p {
    line-height: 30px;
    color: #7A7A7A;
-}
-#about .main-col>p {
-   text-align: justify;
 }
 #about .profile-pic {
    position: relative;
@@ -630,7 +639,6 @@ ul#nav li.current a { color: #F06000; }
 /* ------------------------------------------------------------------ */
 
 #testimonials {
-   background: #1F1F1F url(../images/testimonials-bg.jpg) no-repeat center center;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    background-attachment: fixed;
